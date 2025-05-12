@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura de la madera</title>
+    <link rel="stylesheet" href="Styles2.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="grid-container">
+    
+    <header class="header1">
+        <a href="#" class="brand">Arquitectura</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+         <div class="navigation-items">
+            <a href="index.html">Inicio</a>
+            <a href="pagina_1.html">Proyectos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="acerca_de.html">Acerca de </a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contactanos.html">Contactanos</a>
+         </div>   
+        </div>
+    </header>
+    <section class="article1">
+       
+        <div class="card-container">
+            <div class="card">
+                <video src="proyecto_1.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Cabecera con buros flotantes</h4>
+                    <p>Hermosa cabecera con ese acabado elegante y contemporaneo distintivo de nuestros proyectos , dale vida a tu hogar.</p>
+                </div>
+            </div>
+            <div class="card">
+                <video src="proyecto_2.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Closet acabado chocolate</h4>
+                    <p>hermoso closet con acabadocolor chocolate para amantes de el lujo y la legancia que aporta la madera en tu hogar</p>
+                </div>
+            </div>
+            <div class="card">
+                <video src="proyecto_3.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Remodelacion Luxury</h4>
+                    <p>remodelacion de elementos de las habitaciones, puertas y terraza de una hermosa casa en puert vallarta , para los amantes de el lujo y la elgancia que aporta la madera en tu hogar</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <video src="proyecto_4.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Puertas en acabado chocolate</h4>
+                    <p>En este proyecto fabricamos distintas puerta y elementos para la casa en madera de la mejor calidad y con acabado chocolate</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <video src="proyecto_5.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Acabados en madera  </h4>
+                    <p>En este proyecto podemos observar el un hermoso trabajo en madera que cubre el area donde solemos guardar cosas y la tuberia.</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <video src="proyecto_6.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Renders de proyecto</h4>
+                    <p>podemos hacer render de nuestras propuestas para ti y que el proyecto tome mas forma en tu imaginacion</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <video src="proyecto_7.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Clientes satisfechos redes sociales</h4>
+                    <p>como es costumbre nuestrso clientes quedan encantados con el resultado optenido lo suben a redes sociales</p>
+                </div>
+            </div>
+            <div class="card">
+                
+                <video src="proyecto_8.mp4" autoplay muted loop></video>
+                <div class="card-content">
+                    <h4>Contactanos y cotiza</h4>
+                    <p>contactanos y cotiza con nosotros tu proyecto que tengas en mente , nosotros lo haremos posible </p>
+                </div>
+            </div>
+           
+        </div>
+        
+       
+    </section>
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="https://www.facebook.com/share/1AFsU9EFzg/?mibextid=wwXIfr" class="icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="#" class="icon">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </li>
+
+            <li class="icon-elem">
+                <a href="https://www.instagram.com/arq.delamadera" class="icon">
+                    <i class="bi bi-instagram"></i></i>
+                </a>
+            </li>
+
+        </ul>
+        <ul class="menu">
+            <li class="menu-elem">
+                <a href="index.html" class="menu-icon">Inicio</a>
+            </li>
+            <li class="menu-elem">
+                <a href="servicios.html" class="menu-icon">Servicios</a>
+            </li>
+            <li class="menu-elem">
+                <a href="acerca_de.html" class="menu-icon">Acerca de</a>
+            </li>
+            <li class="menu-elem">
+                <a href="galeria.html" class="menu-icon">Galeria</a>
+            </li>
+            <li class="menu-elem">
+                <a href="contactanos.html" class="menu-icon">Contactanos</a>
+            </li>
+        </ul>
+        <p class="text">© 2025 Arquitectura de la madera. Todos los derechos reservados.</p>
+    </footer>
+
+
+    <script type="text/javascript">
+        //javascript para el diseno responsivo del menu
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
